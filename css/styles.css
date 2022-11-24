@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+h1, h2, h3 {
+  font-family: "Copperplate"; }
+
+h2 {
+  color: #3046C5; }
+
+header h2 {
+  color: #CEC8FF; }
+
+.site-footer {
+  background-color: #2e2e2e;
+  padding: 50px 0;
+  color: white; }
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-color: white;
+  color: white; }
+
+.row-content {
+  padding: 0px;
+  min-height: 300px; }
+
+#carous {
+  text-align: center;
+  height: 300px;
+  width: 642px; }
+
+.navbar {
+  background-color: #2e2e2e; }
+
+.tab-content {
+  border: 0px solid #DDD;
+  border-top: none;
+  padding: 10px; }
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.carousel {
+  margin: 3px; }
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  background-color: #141414a9;
+  border-color: #000000; }
+
+#reserveModal .modal-header {
+  background-color: #28a745;
+  color: white; }
+
+#loginModal .modal-header {
+  background-color: #28a745;
+  color: white; }
+
+.top-buffer {
+  margin-top: 30px; }
+
+#newsCaption {
+  font-size: 40px; }

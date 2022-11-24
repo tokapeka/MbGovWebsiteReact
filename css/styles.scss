@@ -1,0 +1,106 @@
+$color-primary: #3046C5;
+$color-secondary: #5637dd;
+$color-pale: #CEC8FF;
+$color-mid: #28a745;
+$color-dark: #60106b;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-teal: #17A2B8;
+
+$body-font: Arial, Helvetica, sans-serif;;
+$header-font: "Copperplate";
+
+
+
+body {
+    font-family: $body-font;
+}
+
+h1, h2, h3 {
+    font-family: $header-font;
+}
+
+h2 {
+    color: $color-primary;
+}
+
+header {
+    h2 {
+        color: $color-pale;
+    }
+}
+
+.site-footer {
+    background-color: rgb(46, 46, 46);
+    padding: 50px 0;
+    color: white;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-color: white;
+    color: white;
+}
+
+.row-content {
+    padding: 0px;
+    min-height: 300px;
+    
+}
+
+#carous {
+    text-align: center;
+    height: 300px;
+    width: 642px;
+}
+
+.navbar {
+    background-color: rgb(46, 46, 46);
+    
+}
+
+.tab-content {
+    border: 0px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
+
+.carousel-caption {
+    background-color: $color-black-transparent;
+}
+
+.carousel {
+    margin: 3px;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background-color:#141414a9;
+    border-color: #000000;
+}
+
+#reserveModal {
+    .modal-header {
+        background-color: $color-mid;
+        color: white;
+    }
+}
+
+#loginModal {
+    .modal-header {
+        background-color: $color-mid;
+        color: white;
+    }
+}
+
+.top-buffer { 
+    margin-top:30px; 
+}
+
+#newsCaption {
+    font-size: 40px;
+}
+
